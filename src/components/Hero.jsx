@@ -47,21 +47,6 @@ export default function Hero() {
       {/* Hero Content Container */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32 flex flex-col items-center text-center">
         
-        {/* Small Company Identifier Badge */}
-        <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, ease: 'easeOut' }}
-          className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-navy-800/80 border border-gold-500/30 backdrop-blur-md mb-8 shadow-sm"
-        >
-          <span className="w-2 h-2 rounded-full bg-gold-400" />
-          <span className="text-xs uppercase tracking-[0.22em] text-gold-400 font-semibold">
-            {companyProfile.name}
-          </span>
-          <span className="text-slate-500 text-xs">|</span>
-          <span className="text-xs text-slate-300 font-medium">Energy & Drilling Solutions</span>
-        </motion.div>
-
         {/* Main Headline */}
         <motion.h1
           initial={{ opacity: 0, y: 25 }}
