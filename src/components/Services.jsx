@@ -50,10 +50,6 @@ export default function Services({ onSelectServiceForContact }) {
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div className="max-w-2xl">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-sm bg-navy-800/90 border border-gold-500/30 text-gold-400 font-semibold text-xs tracking-wider uppercase mb-3">
-              <span className="w-1.5 h-1.5 rounded-full bg-gold-400" />
-              Our Services
-            </div>
             <h2 id="services-title" className="font-display text-3xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-tight">
               Integrated Capabilities for the Modern Energy Sector
             </h2>

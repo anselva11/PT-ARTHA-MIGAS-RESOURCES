@@ -17,10 +17,6 @@ export default function WhyChooseUs() {
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-sm bg-navy-100 text-navy-800 font-semibold text-xs tracking-wider uppercase mb-3">
-            <span className="w-1.5 h-1.5 rounded-full bg-gold-500" />
-            Why Choose Us
-          </div>
           <h2 id="why-title" className="font-display text-3xl sm:text-4xl md:text-5xl font-black text-navy-900 tracking-tight mb-4">
             Built on Reliability, Integrity & Technical Precision
           </h2>

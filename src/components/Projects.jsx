@@ -19,10 +19,6 @@ export default function Projects() {
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 sm:mb-16 gap-6">
           <div className="max-w-2xl">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-sm bg-navy-100 text-navy-800 font-semibold text-xs tracking-wider uppercase mb-3">
-              <span className="w-1.5 h-1.5 rounded-full bg-gold-500" />
-              Projects & Experience
-            </div>
             <h2 id="projects-title" className="font-display text-3xl sm:text-4xl md:text-5xl font-black text-navy-900 tracking-tight">
               Demonstrated Industrial Capability & Energy Scope Execution
             </h2>
